@@ -6,13 +6,14 @@
 
 body {
   font-family: sans-serif;
-  background-color: #f1efec;
+  background-color: aquamarine;
   overflow-x: hidden;
 }
 
 section {
   padding: 0 15px;
   max-width: 767px;
+  background-color: #f1efec;
 }
 @media screen and (min-width: 767px) {
   section {
@@ -52,10 +53,10 @@ section {
 }
 
 .buttons {
-  margin-top: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
   .actions {
     display: flex;
     margin-right: 15px;
